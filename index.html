@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock PaPer Scissor </title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    .stars{
+        background-color: rgb(0, 0, 0);
+		clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+		display: inline-block;
+		height: 100px;
+		width: 100px;
+	}
+	#active {
+	  background-color: yellow;
+	}
+</style>
+<body>
+    
+<nav>
+    <h1>
+        Rock PaPer Scissor
+    </h1>
+</nav>
+ 
+<article>
+    <aside class="PlayeroneContainer">
+        <main>
+            <div id="star1" class="stars"></div>
+            <div id="star2" class="stars"></div>
+            <div id="star3" class="stars"></div>
+        </main>
+        <img id="YourHand" src="/images/l hand rock.png" alt="">
+        </aside>
+        <section class="PlayersecondContainer">
+            <main>
+                <div id="star4" class="stars"></div>
+                <div id="star5" class="stars"></div>
+                <div id="star6" class="stars"></div>
+            </main>
+        <img width="500px" id="OppHand" src="/images/r hand paper.png" alt="">
+        </section>
+</article>
+<div>
+        
+    <button id="startGame">
+    start  Game
+</button>
+</div>
+<footer>
+    <img id="rock" src="/images/rock.png" alt="">
+    <img id="paper" src="/images/paper.png" alt="">
+    <img id="siccor" src="/images/siccor.png" alt="">
+</footer>
+
+</body>
+<script src="/js/main.js"></script>
+</html>
